@@ -1,5 +1,85 @@
 # @graphprotocol/graph-cli
 
+## 0.64.0
+
+### Minor Changes
+
+- [#1533](https://github.com/graphprotocol/graph-tooling/pull/1533)
+  [`45f3197`](https://github.com/graphprotocol/graph-tooling/commit/45f319773276ba14efb0623f7b22232ef76b685a)
+  Thanks [@saihaj](https://github.com/saihaj)! - adding deprecation notices for commands we plan to
+  change in the next major. See https://github.com/graphprotocol/graph-tooling/issues/1487
+
+### Patch Changes
+
+- [#1545](https://github.com/graphprotocol/graph-tooling/pull/1545)
+  [`1cfc8ce`](https://github.com/graphprotocol/graph-tooling/commit/1cfc8ce67388ebb9c6dcb1195119959ecd9be325)
+  Thanks [@saihaj](https://github.com/saihaj)! - dependencies updates:
+
+  - Removed dependency
+    [`@babel/core@^7.20.5` ↗︎](https://www.npmjs.com/package/@babel/core/v/7.20.5) (from
+    `dependencies`)
+  - Removed dependency
+    [`@babel/preset-typescript@^7.18.6` ↗︎](https://www.npmjs.com/package/@babel/preset-typescript/v/7.18.6)
+    (from `dependencies`)
+  - Removed dependency [`memoizee@^0.4.15` ↗︎](https://www.npmjs.com/package/memoizee/v/0.4.15)
+    (from `dependencies`)
+
+- [#1545](https://github.com/graphprotocol/graph-tooling/pull/1545)
+  [`1cfc8ce`](https://github.com/graphprotocol/graph-tooling/commit/1cfc8ce67388ebb9c6dcb1195119959ecd9be325)
+  Thanks [@saihaj](https://github.com/saihaj)! - fix call handler validation
+
+## 0.63.1
+
+### Patch Changes
+
+- [#1539](https://github.com/graphprotocol/graph-tooling/pull/1539)
+  [`3e29dfd`](https://github.com/graphprotocol/graph-tooling/commit/3e29dfdf0175634246aca5d2b57328cdd32ea45a)
+  Thanks [@saihaj](https://github.com/saihaj)! - upgrade `graph init` to use latest version of
+  `graph-ts`
+
+- [#1540](https://github.com/graphprotocol/graph-tooling/pull/1540)
+  [`8a79d05`](https://github.com/graphprotocol/graph-tooling/commit/8a79d0501dfb95452f198b6744c459716d112275)
+  Thanks [@saihaj](https://github.com/saihaj)! - fix graph build for templates
+
+## 0.63.0
+
+### Minor Changes
+
+- [#1531](https://github.com/graphprotocol/graph-tooling/pull/1531)
+  [`b168be1`](https://github.com/graphprotocol/graph-tooling/commit/b168be1526376fbb386b2ef650813b6696ab59f1)
+  Thanks [@travs](https://github.com/travs)! - Add `--skip-git` option to `init` cli command
+
+- [#1490](https://github.com/graphprotocol/graph-tooling/pull/1490)
+  [`95eb9d0`](https://github.com/graphprotocol/graph-tooling/commit/95eb9d0244a99fdfb7a4750963c1a982d024dd87)
+  Thanks [@mangas](https://github.com/mangas)! - substreams based triggers support
+
+- [#1535](https://github.com/graphprotocol/graph-tooling/pull/1535)
+  [`7d5c818`](https://github.com/graphprotocol/graph-tooling/commit/7d5c818fc832cf824421957b02ff3198bcf25a22)
+  Thanks [@saihaj](https://github.com/saihaj)! - add validation for handlers from subgraph manifest
+
+- [#1524](https://github.com/graphprotocol/graph-tooling/pull/1524)
+  [`086a2da`](https://github.com/graphprotocol/graph-tooling/commit/086a2da03a4388277b69b6db541a0673dc9505bb)
+  Thanks [@pedropregueiro](https://github.com/pedropregueiro)! - Add support for M3 apple silicon
+  for `graph test`
+
+### Patch Changes
+
+- [#1535](https://github.com/graphprotocol/graph-tooling/pull/1535)
+  [`7d5c818`](https://github.com/graphprotocol/graph-tooling/commit/7d5c818fc832cf824421957b02ff3198bcf25a22)
+  Thanks [@saihaj](https://github.com/saihaj)! - dependencies updates:
+
+  - Added dependency [`@babel/core@^7.20.5` ↗︎](https://www.npmjs.com/package/@babel/core/v/7.20.5)
+    (to `dependencies`)
+  - Added dependency
+    [`@babel/preset-typescript@^7.18.6` ↗︎](https://www.npmjs.com/package/@babel/preset-typescript/v/7.18.6)
+    (to `dependencies`)
+  - Added dependency [`memoizee@^0.4.15` ↗︎](https://www.npmjs.com/package/memoizee/v/0.4.15) (to
+    `dependencies`)
+
+- [#1521](https://github.com/graphprotocol/graph-tooling/pull/1521)
+  [`3571a57`](https://github.com/graphprotocol/graph-tooling/commit/3571a571b2a094f41932e7cbc91b605c7ba0962c)
+  Thanks [@saihaj](https://github.com/saihaj)! - remove studio network validation checks
+
 ## 0.62.0
 
 ### Minor Changes
